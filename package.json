@@ -6,6 +6,10 @@
   "bugs": {
     "url": "https://github.com/Ki5syN/ajs/issues"
   },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  }, 
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ki5syN/ajs.git"
@@ -15,6 +19,15 @@
   "type": "commonjs",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.0",
+    "babel-loader": "^10.0.0",
+    "webpack": "^5.105.3",
+    "webpack-cli": "^6.0.1"
   }
 }
