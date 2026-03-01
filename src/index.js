@@ -5,6 +5,10 @@ function info() {
   return m;
 }
 
-module.exports = {
-  info
-};
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = { info };
+}
+
+if (typeof window !== 'undefined') {
+  window.ajs = { info };
+}
