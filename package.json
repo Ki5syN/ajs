@@ -1,15 +1,14 @@
 {
   "name": "@ki5syn/ajs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "homepage": "https://github.com/Ki5syN/ajs#readme",
   "bugs": {
     "url": "https://github.com/Ki5syN/ajs/issues"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
-  }, 
-  
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ki5syN/ajs.git"
