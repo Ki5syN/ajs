@@ -5,6 +5,12 @@ function info() {
   return m;
 }
 
-export default {
+const ajs = {
   info
 };
+
+export default ajs;
+
+if (typeof window !== 'undefined') {
+  window.ajs = ajs;
+}
